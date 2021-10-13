@@ -1,0 +1,60 @@
+plugins {
+    id 'com.android.application'
+    id 'io.github.gjwlfeng.versionlogging'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.zf.version.log.manager"
+        minSdkVersion 16
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}
+
+vLogConfig {
+    //工作目录,写绝对路径，不要写相对路径
+    vLogWorkDir = project.rootProject.file("version-loggging")
+
+    //项目日志
+    changedLogFile = project.rootProject.file("version-loggging/changed_log.txt")
+
+    //版本日志记录
+    logInfo {
+        //版本号
+        versionCode = 12
+        //可选，版本名称
+        versionName = 'v1.1.0'
+
+        //添加额外信息
+        addExtraInfo "key1", "value1"
+        addExtraInfo "key2", "value2"
+    }
+}

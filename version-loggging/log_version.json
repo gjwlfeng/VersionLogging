@@ -1,0 +1,13 @@
+[
+  {
+    "versionCode": 12,
+    "versionName": "v1.1.0",
+    "updateTime": 1634022043199,
+    "addTime": 1634022043199,
+    "logs": [],
+    "extraMap": {
+      "key1": "value1",
+      "key2": "value2"
+    }
+  }
+]
