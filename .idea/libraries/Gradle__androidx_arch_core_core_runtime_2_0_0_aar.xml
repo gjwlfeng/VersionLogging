@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/750b7b3e6ba5087b346f6e90470bbb4c/core-runtime-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/4025a1cc78f533ea47207fcf0a091d8e/core-runtime-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/12ea05dba3fe3e66527c4d876a9ccb70/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/12ea05dba3fe3e66527c4d876a9ccb70/core-runtime-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/12ea05dba3fe3e66527c4d876a9ccb70/core-runtime-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/19e92ff155fcd511a30b06084c89061e/core-runtime-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/992bdf41c9d540ad2b57c3dc1ccf227f/core-runtime-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bf6de546a0ad8ffdf106b1863b286e63/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bf6de546a0ad8ffdf106b1863b286e63/core-runtime-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bf6de546a0ad8ffdf106b1863b286e63/core-runtime-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

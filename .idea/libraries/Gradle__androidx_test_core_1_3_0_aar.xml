@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test:core:1.3.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/1c912b88e1e65273a7b03403c869dec2/core-1.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ea17e7bb7ead7625d7e6d5076a713500/core-1.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/7197d920284e85b8506ec1de3a84f020/core-1.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/7197d920284e85b8506ec1de3a84f020/core-1.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/7197d920284e85b8506ec1de3a84f020/core-1.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/911c6ff8c3e86b49423c1ccf96e44e5e/core-1.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fd5d620d08634d46682ec7fc1ed283df/core-1.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/302d7eb0b5e0a0d4b7e59e9a0ff9cf41/core-1.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/302d7eb0b5e0a0d4b7e59e9a0ff9cf41/core-1.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/302d7eb0b5e0a0d4b7e59e9a0ff9cf41/core-1.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.3.0/3d046283a0729cb2d5dacdd9b3f8b62203052da5/core-1.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.3.0/cab982e254e02674aa7a46e3086986cddd50ca06/core-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

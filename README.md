@@ -1,11 +1,11 @@
 ## gradle配置
 
 vLogConfig {
-   //工作目录
-   vLogWorkDir = new File("E:\XXXXX\")
+    //工作目录
+    vLogWorkDir = new File("E:\XXXXX\")
 
-   //可选,整理后的日志保存文件，默认为工作目录 log_version.json
-   vLogFile = new File("E:\XXXXX\log.txt")
+    //可选,整理后的日志保存文件，默认为工作目录 log_version.json
+    vLogFile = new File("E:\XXXXX\log.txt")
 
     //项目日志
     changedLogFile = new File("E:\XXXXX\changed_log.txt")
