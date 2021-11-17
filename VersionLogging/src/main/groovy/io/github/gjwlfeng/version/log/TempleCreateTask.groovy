@@ -10,7 +10,7 @@ import org.gradle.api.tasks.TaskAction;
 class TempleCreateTask extends DefaultTask {
 
     @InputDirectory
-    RegularFileProperty vLogWorkDir = project.objects.fileProperty()
+   final RegularFileProperty vLogWorkDir = project.objects.fileProperty()
 
     @TaskAction
     public void run() throws Exception {
@@ -21,7 +21,7 @@ class TempleCreateTask extends DefaultTask {
      * 生成默认的模板 demo
      * @return
      */
-    def createDefaultLogTempleFile() {
+    private void createDefaultLogTempleFile() {
         File templeDir = new File(vLogWorkDir.get().asFile, Constant.TEMPLE_DIR_NAME)
         if (!templeDir.exists()) {
             templeDir.mkdirs();

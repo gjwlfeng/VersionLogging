@@ -51,4 +51,15 @@ class VersionLogConfig {
         return "${Constant.TASK_NAME_PREFIX}${name.capitalize()}"
     }
 
+
+    @Override
+    public String toString() {
+        return "VersionLogConfig{" +
+                "versionCode=" + versionCode +
+                ", vLogWorkDir=" + vLogWorkDir +
+                ", vLogFile=" + vLogFile +
+                ", changedLogFile=" + changedLogFile +
+                ", logInfo=" + logInfo +
+                '}';
+    }
 }

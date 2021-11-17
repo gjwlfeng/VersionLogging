@@ -18,27 +18,27 @@ public class RecordLogTask extends DefaultTask {
     static String LOG_SEPARATOR = "###";
 
     @InputFile
-    RegularFileProperty changedLogFile = project.objects.fileProperty()
+    final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     @InputDirectory
-    RegularFileProperty vLogWorkDir = project.objects.fileProperty()
+    final RegularFileProperty vLogWorkDir = project.objects.fileProperty()
 
     @OutputFile
-    RegularFileProperty vLogFile = project.objects.fileProperty()
+    final RegularFileProperty vLogFile = project.objects.fileProperty()
 
     @Input
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final Property<Integer> versionCode = project.objects.property(Integer)
 
     @Optional
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final Property<String> versionName = project.objects.property(String)
 
     @Optional
     @Input
-    MapProperty<String, Object> extraMap = project.objects.mapProperty(String,Object)
+    final MapProperty<String, Object> extraMap = project.objects.mapProperty(String,Object)
 
 
-    def getCurrentVersionLog() {
+    private VersionLog getCurrentVersionLog() {
 
         def currentLogs = getUpdateContent(changedLogFile.get().asFile)
 
@@ -62,7 +62,7 @@ public class RecordLogTask extends DefaultTask {
 
     }
 
-    def static List<String> getUpdateContent(File logFile) {
+    private static List<String> getUpdateContent(File logFile) {
 
         int startNum = -1
 

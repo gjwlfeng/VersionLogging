@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
-    id 'io.github.gjwlfeng.versionlogging'
+    id 'io.github.gjwlfeng.version-logging'
+    id 'io.github.gjwlfeng.git-command'
 }
 
 android {
@@ -41,10 +42,10 @@ dependencies {
 
 vLogConfig {
     //工作目录,写绝对路径，不要写相对路径
-    vLogWorkDir = project.rootProject.file("version-loggging")
+    vLogWorkDir = project.file("version-logging")
 
     //项目日志
-    changedLogFile = project.rootProject.file("version-loggging/changed_log.txt")
+    changedLogFile = project.file("version-logging/changed_log.txt")
 
     //版本日志记录
     logInfo {
@@ -56,5 +57,19 @@ vLogConfig {
         //添加额外信息
         addExtraInfo "key1", "value1"
         addExtraInfo "key2", "value2"
+    }
+}
+
+gitConfig {
+    //当前版本名称 ,git commit ,git tag 都会用到
+    versionName "1.1.0"
+    //可选参数。版本号
+    versionCode 1
+    changedLogFile = project.file("logging-git.txt")
+    workDirFile = project.rootProject.projectDir
+    repositories {
+        github {
+            repoName = "origin"
+        }
     }
 }

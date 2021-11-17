@@ -12,27 +12,27 @@ public class VersionLogTempleTask extends DefaultTask {
     static String LOG_SEPARATOR = "###";
 
     @InputFile
-    RegularFileProperty changedLogFile = project.objects.fileProperty()
+    final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     @InputDirectory
-    RegularFileProperty versionLogWorkDir = project.objects.fileProperty()
+    final RegularFileProperty versionLogWorkDir = project.objects.fileProperty()
 
     @OutputFile
-    RegularFileProperty versionLogFile = project.objects.fileProperty()
+    final RegularFileProperty versionLogFile = project.objects.fileProperty()
 
     @Input
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final Property<Integer> versionCode = project.objects.property(Integer)
 
     @Optional
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final Property<String> versionName = project.objects.property(String)
 
     @Optional
     @Input
-    Property<Map<String, Object>> extraMap = project.objects.property(HashMap)
+    final Property<Map<String, Object>> extraMap = project.objects.property(HashMap)
 
 
-    def getCurrentVersionLog() {
+    private VersionLog getCurrentVersionLog() {
 
         def currentLogs = getUpdateContent(changedLogFile.get().asFile)
 
@@ -52,7 +52,7 @@ public class VersionLogTempleTask extends DefaultTask {
 
     }
 
-    def static List<String> getUpdateContent(File logFile) {
+    private static List<String> getUpdateContent(File logFile) {
 
         int startNum = -1
 

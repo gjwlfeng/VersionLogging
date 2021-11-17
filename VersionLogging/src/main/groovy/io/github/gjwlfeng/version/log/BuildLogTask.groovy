@@ -12,13 +12,13 @@ import org.gradle.api.tasks.TaskAction
 public class BuildLogTask extends DefaultTask {
 
     @InputDirectory
-    RegularFileProperty vLogWorkDir = project.objects.fileProperty()
+    final RegularFileProperty vLogWorkDir = project.objects.fileProperty()
 
     @InputFile
-    RegularFileProperty logTempleFile = project.objects.fileProperty()
+    final  RegularFileProperty logTempleFile = project.objects.fileProperty()
 
     @OutputFile
-    RegularFileProperty versionLogFile = project.objects.fileProperty()
+    final  RegularFileProperty versionLogFile = project.objects.fileProperty()
 
 
     @TaskAction

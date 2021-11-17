@@ -1,2 +1,2 @@
-rootProject.name = "VersionLogging-gradle-plugin"
+rootProject.name = "VersionLogging"
 include ':app' ,"VersionLogging"
